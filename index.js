@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-
-  </head>
-  <body>
-    <script>
-    function Square(props) {
+function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
@@ -153,6 +142,3 @@ function calculateWinner(squares) {
   }
   return null;
 }
-</script>
-  </body>
-</html>
