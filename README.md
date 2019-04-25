@@ -1,3 +1,3 @@
 # React-js Testing
 
-https://pwittix.github.io/React-js/
+https://lacity-prees.github.io/React-js/
